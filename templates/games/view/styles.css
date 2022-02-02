@@ -1,0 +1,195 @@
+body
+{
+    background-color: red;
+    font-family: "Impact";
+    color: whitesmoke;
+    margin: 0;
+    background-image: url("../../../images/!!!Background!!!.jpg");
+}
+
+a
+{
+    text-decoration:none
+}
+
+#buttonSearch
+{
+    margin:-53px 443px;
+}
+
+.gameblock
+{
+    background-color: red;
+    left: 9.5vw;
+    bottom: 0;
+    padding-bottom: 0;
+    background-color: #232929;
+    position: relative;
+    margin-bottom: 0;
+    float: left;
+    width: 81%;
+    height: 900px;
+}
+
+.gameblock::before
+{
+    content: "";
+    display: block;
+}
+
+.gamecover
+{
+    float: left;
+    bottom: 43.5%;
+    left:4.7%;
+    background-image:url("../../../images/Resident Evil 2.jpg");
+    border: 2px solid #748484;
+    border-radius: 7px;
+    padding: 0;
+    position: absolute;
+    width:321px;
+    height: 431px;
+    background-color: red;
+}
+
+.gameinfo
+{
+    margin-top: 0;
+    float: left;
+    width: 550px;
+    height: 500px;
+    border-radius: 10px;
+    bottom: 37%;
+    left:42.7%;
+    padding: 0;
+    position: absolute;
+
+}
+
+#gameName
+{
+    font-family: "Magneto";
+    color: #EF0010;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+#infoPart
+{
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.gameScore
+{
+    position: relative;
+    left:7.8%;
+    margin: 0;
+    padding: 0;
+    top: 60%;
+    width:295px;
+    height:175px;
+}
+
+#score
+{
+    vertical-align: middle;
+    line-height: 50px;
+    float: left;
+    text-align: center;
+    font-size: 55px;
+    font-family: "Magneto";
+    color: #ffc12b;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-shadow:  2px 1px 2px black, 0 0 1em black
+}
+
+#scorePart
+{
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    color: #ffe0cb;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-shadow:  2px 1px 2px black, 0 0 1em black;
+}
+
+#vote
+{
+    vertical-align: middle;
+    line-height: 35px;
+    float: left;
+    font-family: "Magneto";
+    text-align: center;
+    font-size: 41px;
+    color: #ff6242;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-shadow:  2px 1px 2px black, 0 0 1em black
+}
+
+.descr
+{
+    position: relative;
+    width:550px;
+    border-radius: 20px;
+    padding: 17px 17px;
+}
+
+#basketButton
+{
+    float: right;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-right: -11px;
+    margin-top: -5px;
+    padding-left: 71px;
+    padding-right: 7px;
+    padding-top: 1px;
+    height: 90px;
+    border: solid 2px #0e3005;
+    box-shadow: 0 0 0.5em green;
+    border-radius: 6px;
+    font-family: "Impact";
+    font-size: 24px;
+    background-color: #37a320;
+    color: #ffd700;
+    background-image: url("../../../images/!!!Basket!!!.svg");
+    background-size: 65px;
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+
+#basketIcon
+{
+    margin-top: 9px;
+    padding-right: 5px;
+    width: 60px;
+    height: 60px;
+}
+
+#basketText
+{
+    padding-left: 7px;
+    padding-right: 15px;
+    float: right;
+}
+
+#description
+{
+    background-color: #0e0e0e;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    line-height: 140%;
+    color: #a3d8de;
+    font-size: 21px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}

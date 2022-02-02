@@ -1,0 +1,391 @@
+body
+{
+  background-color: #232929;
+  font-family: "Impact";
+  margin: 0;
+}
+
+
+a
+{
+    text-decoration:none
+}
+
+.wholebody
+{
+  background-color: red;
+  height: 100%;
+  width: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.sort
+{
+  background-color: inherit;
+  margin-top: 50px;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+}
+
+#sortBy
+{
+  font-family: "Impact";
+  font-style:italic;
+  font-size: 19px;
+  color: white;
+  float: left;
+  margin-top: 15px;
+  margin-left: 45px;
+}
+
+#buttonSort
+{
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  line-height:30px;
+  height: 35px;
+  margin-top: 10px;
+  border-radius: 16px;
+  font-family: "Impact";
+  font-size: 20px;
+  background-color:#454F4F;
+  color: #FF4A4D;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#buttonSort :hover
+{
+  text-shadow:  2px 1px 2px black, 0 0 1em red;
+}
+
+#sortIcon
+{
+  margin-left: 5px;
+  margin-top: -3px;
+  vertical-align: middle;
+  line-height:30px;
+  width: 25px;
+  height: 25px;
+}
+
+.currentSearch
+{
+    /*display: none;*/
+    position: relative;
+    width: 76.8%;
+    padding-bottom: 1px;
+    margin-top: 100px;
+    background-color: #0e0e0e;
+    margin-bottom: -55px;
+    border-radius: 10px;
+}
+
+#currentSearchString
+{
+    font-size: 24px;
+    position: relative;
+    bottom:-10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-overflow:ellipsis;
+    width: 95%;
+    /*background-color: green;*/
+    white-space: nowrap;
+    overflow: hidden;
+    color: #e4ebe4;
+}
+
+#buttonDropSearch
+{
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    line-height:30px;
+    height: 33px;
+    margin-top: 0;
+    margin-left: 45px;
+    border-radius: 10px;
+    font-family: "Impact";
+    font-size: 20px;
+    background-color: #99b1b1;
+    color: #252826;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.genres
+{
+  background-color: inherit;
+  color: #F6CFCF;
+  font-size: 25px;
+  width: 235px;
+  float: right;
+  height: 100%;
+  padding-left: 10px;
+}
+
+#container
+{
+ display: block;
+ position: relative;
+ padding-left: 35px;
+ margin-bottom: 12px;
+ cursor: pointer;
+ font-size: 21px;
+ user-select: contain;
+}
+
+#container input
+{
+ position: relative;
+ opacity: 0;
+ cursor: pointer;
+ height: 0;
+ width: 0;
+}
+
+#checkmark
+{
+ position:absolute;
+ z-index: 1;
+ display: inline;
+ top: 0;
+ left: 0;
+ height: 25px;
+ width: 25px;
+    border-radius: 8px;
+ background-color: #F6CFCF;
+}
+
+#container:hover input ~ #checkmark
+{
+ background-color: #BB9C9C;
+}
+
+#container input:checked ~ #checkmark
+{
+ background-color: #FC4D2F;
+}
+
+#checkmark:after
+{
+ content: "";
+ position: relative;
+ display: none;
+}
+
+#container input:checked ~ #checkmark:after
+{
+ display: block;
+}
+
+#container #checkmark:after
+{
+ left: 9px;
+ top: 5px;
+ width: 5px;
+ height: 10px;
+ border: solid #212828;
+ border-width: 0 3px 3px 0;
+ transform: rotate(45deg);
+}
+
+#genreIcon
+{
+    margin-left: 2px;
+    margin-bottom: 3px;
+    vertical-align: middle;
+    line-height:30px;
+    width: 21px;
+    height: 21px;
+}
+
+#buttonGenres
+{
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    line-height:30px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    font-family: "Impact";
+    font-size: 20px;
+    background-color:#454F4F;
+    color: #FF4A4D;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.list
+{
+  margin-top: -79px;
+  margin-left: 20px;
+  position:inherit;
+  background-color: inherit;
+  padding-left: 60px;
+  height: 100%;
+}
+
+#table
+{
+  border-spacing:50px 100px;
+    table-layout: fixed;
+  margin-bottom: -60PX;
+}
+
+#row1,#row2,#row3,#row4,#row5
+{
+  background-color: inherit;
+  height: 440px;
+}
+
+#col1,#col2,#col3
+{
+  border-radius: 20px;
+  width:260px;
+    background-image: linear-gradient(#212828, #253e41);
+  overflow: hidden;
+  cursor: pointer;
+    box-shadow: 0px 4px 4px black;
+}
+
+#row1 :hover/*, :not(#col1) :hover*/
+{
+    box-shadow: 0px 12px 12px black;
+}
+
+#col1 :hover
+{
+    box-shadow: none;
+}
+
+#gamePhoto
+{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display:block;
+  float:left;
+}
+
+#gameName
+{
+  text-align: center;
+  font-size: 24px;
+  color: #EFC9C9;
+  position: relative;
+  bottom:-10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-overflow:ellipsis;
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#rating
+{
+  float: left;
+  text-align: center;
+  font-size: 35px;
+  color: orange;
+  position: relative;
+  bottom:0px;
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+#rating1
+{
+  float: left;
+  vertical-align: middle;
+  line-height: 50px;
+  text-align: center;
+  font-size: 35px;
+  color: orange;
+  position: relative;
+  bottom:0px;
+  float: left;
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+#cost
+{
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 5px;
+  color: gold;
+  position: relative;
+  bottom:0px;
+  float: right;
+}
+
+#cost1
+{
+    vertical-align: bottom;
+    line-height: 60px;
+    text-align: center;
+    font-size: 25px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 10px;
+    color: gold;
+    position: relative;
+    bottom:0px;
+    float: right;
+}
+
+.pages
+{
+    position: relative;
+    margin-left: 31%;
+    margin-bottom: 50px;
+    width:200px;
+    height: 75px;
+    background-color: #374040;
+    border-radius: 100px;
+    padding-top: 5px;
+
+}
+
+.previousPage
+{
+    cursor: pointer;
+    float:left;
+    width: 35%;
+    height: 100%;
+    margin-left: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.nextPage
+{
+    cursor: pointer;
+    float:right;
+    width: 35%;
+    height: 100%;
+    margin-right: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#anotherPage
+{
+    position: relative;
+
+}

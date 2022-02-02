@@ -1,0 +1,276 @@
+body
+{
+    font-family: "Impact";
+    color: whitesmoke;
+    margin: 0;
+    background-image: url("../../../images/!!!Background!!!.jpg");
+}
+
+a
+{
+    text-decoration:none
+}
+
+.allInfo
+{
+    left: 10.5vw;
+    bottom: 0;
+    padding-bottom: 0;
+    background-color: #232929;
+    position: relative;
+    margin-bottom: 0;
+    float: left;
+    width: 79%;
+    min-height: 700px;
+}
+
+.userInfo
+{
+    position: relative;
+    float: left;
+    width:47%;
+    bottom: 300px;
+    min-height: 100%;
+    left: 50px;
+    top: 75px;
+    border-radius: 30px;
+    background-color: #9fa097;
+}
+
+#personal
+{
+    color: #de1b29;
+    font-size: 45px;
+    margin-top: 15px;
+    text-align: center;
+    text-shadow:  1px 1px 1px black;
+}
+
+#personalInfo
+{
+    float: left;
+    color: #292626;
+    font-size: 23px;
+    text-align: left;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    margin-top: 0;
+    padding-left: 15px;
+    padding-right: 20px;
+    text-shadow:  2px 1px 2px white, 0 0 1em white;
+}
+
+#personalInfoSpecial
+{
+    font-family: "Magneto", "Calibri";
+    color: #ef272c;
+    font-size: 35px;
+    vertical-align: center;
+    line-height: 28px;
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    text-shadow:  2px 1px 2px black, 0 0 1em black;
+}
+
+#exitButton
+{
+    float: right;
+    cursor: pointer;
+    margin: 4px 20px 20px 15px;
+    padding-left: 33px;
+    padding-right: 33px;
+    height:51px;
+    border: solid 2px #273030;
+    border-radius: 25px;
+    font-family: "Impact";
+    font-size: 28px;
+    background-color:#454F4F;
+    color: #f5f4fc;
+}
+
+.basketList
+{
+    position: relative;
+    float:left;
+    width:40%;
+    top: 75px;
+    left: 93px;
+    margin-bottom: 0;
+    background-color: green;
+    border-radius: 30px;
+    padding-right: 2px;
+    padding-bottom: 0;
+}
+
+#basketName
+{
+    color: #40bf21;
+    font-size: 45px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow:  2px 1px 1px #5c208f,0px 0px 0.3em #710ca9;
+}
+
+.game
+{
+    background-color: #40403c;
+    width: 95%;
+    height: 110px;
+    margin-left: 10px;
+    margin-right: 50px;
+    border-radius: 16px;
+}
+
+.gameImage
+{
+    float:left;
+    width:20.25%;
+    height: 100%;
+}
+
+#gameImagePhoto
+{
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+    width:100%;
+    height: 100%;
+}
+
+.gameInfo
+{
+    float: left;
+    width:55%;
+    height: 75%;
+    background-color: inherit;
+    text-align: center;
+    font-size: 31px;
+    margin-top: 4.77%;
+    margin-left: 3.33%;
+}
+
+#gameInfoValues
+{
+    color: #f7ca11;
+    margin-top: 0;
+    margin-bottom: 9px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.crossPlace
+{
+    margin-top: 6.77%;
+    margin-left: 4.44%;
+    float: left;
+    height: 59%;
+    width: 15%;
+}
+
+input
+{
+    color: transparent;
+}
+
+#deleteButton
+{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../images/!!!Cross!!!.svg");
+    border: 0;
+    background-size: 55px;
+    background-color: inherit;
+    background-repeat: no-repeat;
+}
+
+#confirmButton
+{
+    cursor: pointer;
+    height: 90px;
+    width: 100.5%;
+    border: solid 0 #0e3005;
+    /*border-top: 4px solid #131b3f;*/
+    box-shadow: 0 0 0.5em #3c806a;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-family: "Impact";
+    font-size: 29px;
+    background-color: #3772c8;
+    margin-bottom: -20px;
+    color: inherit;
+}
+
+.buyHistory
+{
+    width: 47%;
+    padding-bottom: 35px;
+    padding-top: 0;
+    position: relative;
+    margin-bottom: 80px;
+    margin-left: 50px;
+    border-radius: 30px;
+    background-color: #636363;
+}
+
+#buyName
+{
+    padding-top: 15px;
+    color: #dbdbee;
+    font-size: 45px;
+    text-align: center;
+    text-shadow:  2px 1px 1px #1a1a1c,0 0 0.3em #393838;
+}
+
+#orderTable
+{
+    /*background-color: #1d1c1c;*/
+    /*border-radius: 30px;*/
+    overflow: hidden;
+    text-align: center;
+    border-spacing: 0 0;
+}
+
+#orderDiv
+{
+    background-color: #aeabac;
+    width: 100%;
+    font-size: 18px;
+    vertical-align: center;
+    line-height: 36px;
+}
+
+#orderDivGame
+{
+    background-color: #2a971e;
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 18px;
+    vertical-align: center;
+    line-height: 36px;
+    /*border-bottom: 1px solid red;*/
+}
+
+#buyLabel
+{
+    margin-left: 10px;
+}
+
+#acceptingButton
+{
+    float: right;
+    cursor: pointer;
+    margin: 30px 20px 20px 15px;
+    padding: 15px 30px;
+    border: solid 2px #0d1358;
+    border-radius: 25px;
+    font-family: "Impact";
+    font-size: 30px;
+    background-color: #416dba;
+    color: #f5f4fc;
+}

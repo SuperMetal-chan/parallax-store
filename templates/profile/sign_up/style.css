@@ -1,0 +1,459 @@
+body
+{
+    font-family: "Impact";
+    color: whitesmoke;
+    margin: 0;
+    background-image: url("../../../images/!!!Background!!!.jpg");
+}
+
+a
+{
+    text-decoration:none;
+}
+
+.allInfo
+{
+    left: 13vw;
+    bottom: 0;
+    padding-bottom: 0;
+    background-color: #232929;
+    position: relative;
+    margin-bottom: 0;
+    float: left;
+    width: 74%;
+    min-height: 700px;
+}
+
+#registration
+{
+    margin-top: 8%;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 50px;
+    color: #EF0010;
+}
+
+.registrationInfo
+{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    position: relative;
+    float: left;
+    width:90.60%;
+    min-height: 100%;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*background-color: red;*/
+}
+
+#registrationTable
+{
+    width: 100%;
+    text-align: right;
+    float:left;
+}
+
+tr
+{
+    height: 70px;
+}
+
+#top
+{
+    text-align: right;
+    width: 30%;
+}
+
+#middle
+{
+    width: 40%;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#middleButton
+{
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+#bottom
+{
+    width: 30%;
+    text-align: left;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    text-shadow: 0 0 0.2em black;
+}
+
+#info
+{
+    color: #eee9e9;
+    float:right;
+    font-size: 25px;
+    display: contents;
+}
+
+#important
+{
+    float:left;
+    color: #EF0010;
+    font-size: 35px;
+    display: contents;
+}
+
+#infoInput
+{
+    width: 333px;
+    height: 33px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 20px;
+    padding-bottom: 4px;
+    border-radius: 25px;
+    border: 2px solid #e82d21;
+    background-color: #343434;
+    color: whitesmoke;
+    font-size: 22px;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+#buttonNext
+{
+    cursor: pointer;
+    border-radius: 25px;
+    border: 3px solid #0b0000;
+    font-family: "Impact";
+    font-size: 33px;
+    background-color: #f61413;
+    box-shadow: 0 0 1em red;
+    color: #fffcf6;
+    padding: 5px 25px;
+    margin-top: 7px;
+    margin-right: 42px;
+}
+
+#mistake
+{
+    color: #ee2426;
+    float:right;
+    font-size: 18px;
+    display: contents;
+}
+
+#stillNotRegisterLabel
+{
+    font-size: 25px;
+    margin-left: 23px;
+}
+
+#infoOrder
+{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#infoOrderList
+{
+    margin: 10px;
+    font-size: 21px;
+}
+
+#costAll
+{
+    margin-top: 1px;
+    color: #b6ff07;
+    font-size: 38px;
+}
+
+#number
+{
+    color: #3182ef;
+    font-size: 30px;
+}
+
+#wayToPayLabel
+{
+    float: left;
+    font-size: 25px;
+}
+
+#wayToPaySelect
+{
+    font-size: 19px;
+    font-family: "Consolas";
+    font-weight: 600;
+    color: #252525;
+    padding: 6px 36px 6px 6px;
+    margin-left: 15px;
+    margin-top: -3px;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'),
+    linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+}
+
+#wayToPayOptions
+{
+    font-family: "Consolas", "Impact";
+}
+
+hr
+{
+    border: 0;
+    height: 1px;
+    margin-bottom: 15px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(247, 255, 236, 0.75), rgba(0,0,0,0));
+}
+
+#numberCardLabel
+{
+    font-size: 25px;
+    margin-left: 0;
+    margin-top: 130px;
+}
+
+#inputNumber
+{
+    font-size: 22px;
+    font-family: "Consolas";
+    font-weight: 600;
+    vertical-align: middle;
+    background-color:white;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    width: 350px;
+    margin-left: 15px;
+    margin-bottom:8px;
+    color: #252525;
+    padding: 6px;
+}
+
+.numberCardDiv
+{
+    display: inline-block;
+}
+
+#timeLabel
+{
+    float: left;
+    font-size: 25px;
+    margin-left: 0;
+}
+
+#buttonConfirm
+{
+    cursor: pointer;
+    margin-left: 30.1%;
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 25px 16px 25px 85px;
+    border: solid 0 #0e3005;
+    box-shadow: 0 0 1em green;
+    border-radius: 56px;
+    font-family: "Impact";
+    font-size: 30px;
+    background-color: #37a320;
+    color: #fffbfb;
+    background-image: url("../../../images/!!!SecondChecked!!!.png");
+    background-size: 65px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+#buttonDecline
+{
+    cursor: pointer;
+    margin-left: 36.3%;
+    margin-top: 21px;
+    margin-bottom: 0;
+    padding: 15px 12px 15px 60px;
+    border: solid 0 #0e3005;
+    box-shadow: 0 0 0.1em #000000;
+    border-radius: 56px;
+    font-family: "Impact";
+    font-size: 25px;
+    background-color: #cc0d0f;
+    color: #fffbfb;
+    background-image: url("../../../images/!!!SecondCross!!!.png");
+    background-size: 45px;
+    background-repeat: no-repeat;
+    background-position: 7px;
+}
+
+#mistakeConfirming
+{
+    color: #ee2426;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.orderDiv
+{
+    margin-top: 45px;
+    margin-bottom: 85px;
+    margin-left: 5%;
+    padding-bottom: 27px;
+    width: 90%;
+    background-color: grey;
+    border: 1px solid #d4d4d9;
+    border-radius: 80px;
+    overflow: hidden;
+}
+
+#orderNumber
+{
+    font-size: 23px;
+    color: #f9fffd;
+}
+
+.topOrder
+{
+    background-color: #1d1d1d;
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: 101%;
+}
+
+.middleOrderLeft
+{
+    float: left;
+    background-color: grey;
+    text-align: left;
+    padding-left: 33px;
+    padding-top: 7px;
+    margin-top: 10px;
+    width: 33%;
+    height: 100%;
+}
+
+.middleOrderRight
+{
+    float: left;
+    text-align: left;
+    padding-top: 7px;
+    padding-left: 15px;
+    margin-top: 10px;
+    width: 60%;
+    height: 100%;
+}
+
+#gameOrdered
+{
+    font-size: 22px;
+    color: #f9fffd;
+}
+
+#gameOrderedLabel
+{
+    font-size: 19px;
+    color: #f9fffd;
+}
+
+#gameCostLabel
+{
+    font-size: 20px;
+    color: #0001d0;
+}
+
+#timingOrderLabel
+{
+    font-size: 21px;
+    color: #f9fffd;
+}
+
+#timingOrderLabelTime
+{
+    font-size: 23px;
+    color: #00d4ff;
+}
+
+#buttonAccept
+{
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 28px;
+    margin-bottom: 0;
+    padding: 19px 16px 19px 16px;
+    border: solid 0 #0e3005;
+    box-shadow: 0 0 1em green;
+    border-radius: 3px;
+    font-family: "Impact";
+    font-size: 22px;
+    background-color: #37a320;
+    color: #fffbfb;
+    background-size: 65px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+#buttonNotAccept
+{
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    padding: 19px 29px 19px 29px;
+    border: solid 0 #300e04;
+    box-shadow: 0 0 1em #d0301d;
+    border-radius: 3px;
+    font-family: "Impact";
+    font-size: 22px;
+    background-color: #d0301d;
+    color: #fffbfb;
+    background-size: 65px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+#buttonStart
+{
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 29px 39px 29px 39px;
+    border: solid 0 #300e04;
+    box-shadow: 0 0 1em #4d67d0;
+    border-radius: 3px;
+    font-family: "Impact";
+    font-size: 26px;
+    background-color: #4463d0;
+    color: #fffbfb;
+    background-size: 65px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+#buttonType
+{
+    cursor: pointer;
+    height: 45px;
+    margin-top: 32px;
+    margin-left: 0;
+    margin-bottom: 1px;
+    border-radius: 56px;
+    font-family: "Impact";
+    overflow: hidden;
+    font-size: 26px;
+    background-color:#454F4F;
+    color: #73a0ff;
+    border: 2px solid #fafbff;
+    width: 225px;
+}
+
+#buttonType :hover
+{
+    text-shadow:  1px 1px 2px #1b1a1b, 0 0 0.77em #1c1c1e;
+}
